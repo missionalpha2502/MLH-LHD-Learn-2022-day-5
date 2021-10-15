@@ -10,7 +10,7 @@ self.root.maxsize(width=1370, height=720)
 self.root.minsize(width=1370, height=720)
 self.root.title("Pharmacy Billing System")
 
-# this function for variables
+# this function for variables.
 self.customer_name = StringVar()
 self.customer_contact_number = StringVar()
 
@@ -46,7 +46,7 @@ bg_color = "#000000"
 fg_color = "red"
 lbl_color = 'red'
 
-# This function for title frame
+# This function for title frame.
 title = Label(self.root, text="Pharmacy Billing System", bd=12, relief=RAISED, fg=fg_color, bg=bg_color,
 font=("Calibri", 36, "bold"), pady=3).pack(fill=X)
 
